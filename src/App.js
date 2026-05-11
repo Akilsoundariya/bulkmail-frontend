@@ -16,7 +16,7 @@ function App() {
 
       const emailList = emails.split(",");
 
-      await axios.post( "https://bulkmail-backend.onrender.com/sendemail", {
+      await axios.post( "https://bulkmail-backend-heag.onrender.com/sendemail", {
         subject: subject,
         msg: msg,
         emailList: emailList,
